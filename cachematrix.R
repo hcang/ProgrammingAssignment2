@@ -14,7 +14,7 @@ makeMatrix <- function(x = matrix()) {
 }
 
 cacheMatrix <- function(x, ...) {
-  #returns the inverse of matrix x
+  #returns the inverse of matrix x.
   m <- x$getmatrix()
   if(!is.null(m)) {
     message("getting cached data")
